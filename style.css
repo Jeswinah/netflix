@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("netflix-img/images/header-image.png"); 
+    position: relative;
+}
+.logo{
+    display: flex;
+    
+}
+
+.logo img{
+
+    height: 40px;
+    margin: 20px 60px;
+    padding-left: 70px;
+}
+.side{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+
+    
+}
+.side button{
+    width: 80px;
+    border-radius: 8px;
+    height: 2%;
+    padding: 7px;
+    border: 1px solid red;    
+}
+h1{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size:46px;
+    margin-top: 8%;
+    
+}
+h2,p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    font-size:24px;
+}
+p{
+    font-size: 16px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    height: 30px;
+    width: 35%;
+    margin: 40px;
+    align-items: center;
+    justify-items: center;
+    opacity: 0.5;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+}
+button{
+    height: 52px;
+    width: 15%;
+    opacity: 0.9;
+    background-color: red;
+    color: white;
+    font-size: large;
+    border-radius: 5%;
+    border: 1px solid red;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
